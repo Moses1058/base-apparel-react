@@ -5,6 +5,8 @@ function App() {
     <div className="App">
       <img src={logo} alt="logo" />
       <HeroImage style={styles.desktop} />
+      <h1>First
+      </h1>
     </div>
   );
 }
