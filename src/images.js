@@ -1,14 +1,13 @@
 import heroDesktop from './assets/hero-desktop.jpg';
 import heroMobile from './assets/hero-mobile.jpg';
-
+import './images.css';
 
 export default function HeroImage() {
     return (
-        <div>
+        <div className="images">
             <DesktopImage />
             <MobileImage />
         </div>
-
     )
 }
 const DesktopImage = () => {
